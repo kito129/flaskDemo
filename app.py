@@ -1,3 +1,20 @@
+#/**************************************************************************************************************************************************
+#* File name     : flask CRUD demo
+#* Compiler      : 
+#* Author        : kito   
+#* Created       : 2023/04/30
+#* Modified      : 
+#* Last modified : 2023/04/30
+#*
+#*
+#* Description   : 
+#*                  project to test and run python flask framework with some CRUD operation over SQLlite DB
+#*
+#* Other info    : 
+#**************************************************************************************************************************************************/
+
+
+
 from flask import Flask, abort,render_template,request,redirect
 from models import db,EmployeeModel
  
